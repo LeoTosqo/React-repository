@@ -1,7 +1,7 @@
 1 install react
 customize ur app
 create and nest component
-style in r
+style in react
 working with images 
 dynamic values
 props, props desturturing, props children

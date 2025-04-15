@@ -29,7 +29,7 @@ const SimpleState = () => {
 
   return (
     <div className="py-10 text-center">
-      <h1 className="text-3xl font-bold">UseState 1</h1>
+      <h1 className="text-3xl font-bold">UseState </h1>
       <p className="m-4 font-bold">my name is {name}</p>
       <button onClick={handleNameChange} className="mybtn m-6">
         Change name
@@ -49,8 +49,10 @@ const SimpleState = () => {
         <h2 className="text-2xl text-red-500 my-2">
           Madrid demolish at the Emirates stadium
         </h2>
-        <p>{show ? details : details.substr(0, 100) +('.....')}</p>
-        <button onClick={handleShowDetails} className="mybtn ">{show?  "Show Less"  : "Show More"}</button>
+        <p>{show ? details : details.substr(0, 100) + "....."}</p>
+        <button onClick={handleShowDetails} className="mybtn ">
+          {show ? "Show Less" : "Show More"}
+        </button>
       </div>
     </div>
   );
