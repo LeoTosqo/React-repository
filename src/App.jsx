@@ -24,12 +24,18 @@ import FetchUsers from "./components/FetchUsers";
 import GetAuto from "./components/GetAuto";
 import Recipe from "./components/Recipe";
 import SimpleForm from "./components/SimpleForm";
+import MultipleForm from "./components/MultipleForm";
+import OtherInputs from "./components/OtherInputs";
+import AxiosExample from "./components/AxiosExample"
+import TextDaisy from "./components/TextDaisy";
+import ReactHookForm from "./components/ReactHookForm";
 
 
 function App() {
   return (
     <>
-    <SimpleForm/>
+    {/* <MultipleForm/> */}
+    <ReactHookForm/>
     
     </>
   );
