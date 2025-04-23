@@ -163,3 +163,8 @@ img
     {id, image, price, title}
   ]
   use the MyStoreSingleroduct component
+
+
+
+
+  
