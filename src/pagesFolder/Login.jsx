@@ -24,7 +24,7 @@ const Login = () => {
     resolver: yupResolver(loginFormValidation),
   });
   const redirect = useNavigate()
-  const [error,setErrror] = useState(false)
+  const [error,setError] = useState(false)
   const onLogin = (data) => {
   console.log(data);
   const { email, password } = data;
@@ -34,7 +34,7 @@ const Login = () => {
     //
   } else {
     //show error
-    setErrror(true)
+    setError(true)
   };
   };
   return (
